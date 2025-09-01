@@ -1,3 +1,4 @@
+using Acme.BookStore.Books;
 using Microsoft.EntityFrameworkCore;
 using Volo.Abp.AuditLogging.EntityFrameworkCore;
 using Volo.Abp.BackgroundJobs.EntityFrameworkCore;
@@ -50,17 +51,18 @@ public class BookStoreDbContext :
     public DbSet<IdentityLinkUser> LinkUsers { get; set; }
     public DbSet<IdentityUserDelegation> UserDelegations { get; set; }
     public DbSet<IdentitySession> Sessions { get; set; }
+    public DbSet<Book> Books { get; set; }
+    
 
     // Tenant Management
     public DbSet<Tenant> Tenants { get; set; }
     public DbSet<TenantConnectionString> TenantConnectionStrings { get; set; }
 
     #endregion
-
+    
     public BookStoreDbContext(DbContextOptions<BookStoreDbContext> options)
         : base(options)
     {
-
     }
 
     protected override void OnModelCreating(ModelBuilder builder)
@@ -78,6 +80,14 @@ public class BookStoreDbContext :
         builder.ConfigureOpenIddict();
         builder.ConfigureTenantManagement();
         builder.ConfigureBlobStoring();
+        
+        builder.Entity<Book>(b =>
+        {
+            b.ToTable(BookStoreConsts.DbTablePrefix + "Books",
+                BookStoreConsts.DbSchema);
+            b.ConfigureByConvention(); //auto configure for the base class props
+            b.Property(x => x.Name).IsRequired().HasMaxLength(128);
+        });
         
         /* Configure your own tables/entities inside here */
 
