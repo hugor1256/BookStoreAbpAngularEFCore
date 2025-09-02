@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "isRoot": true,
+  "tools": {
+    "volo.abp.cli": {
+      "version": "9.3.2",
+      "commands": [
+        "abp"
+      ],
+      "rollForward": false
+    }
+  }
+}
