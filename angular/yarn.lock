@@ -30,7 +30,7 @@
     ng-zorro-antd "~20.0.0"
     tslib "^2.0.0"
 
-"@abp/ng.core@>=9.3.2", "@abp/ng.core@~9.3.2":
+"@abp/ng.core@^9.3.2", "@abp/ng.core@>=9.3.2", "@abp/ng.core@~9.3.2":
   version "9.3.2"
   resolved "https://registry.npmjs.org/@abp/ng.core/-/ng.core-9.3.2.tgz"
   integrity sha512-hj3CtG05LeaOVLZ1WnQVbb9VMtCF4JjHGfp7UTD48/vVf/ZFS6z1oW+/hKwQELwUhVeHYqUKJV7/dJa9PotUdg==
@@ -347,6 +347,13 @@
   dependencies:
     tslib "^2.3.0"
 
+"@angular/animations@19.2.14":
+  version "19.2.14"
+  resolved "https://registry.npmjs.org/@angular/animations/-/animations-19.2.14.tgz"
+  integrity sha512-xhl8fLto5HHJdVj8Nb6EoBEiTAcXuWDYn1q5uHcGxyVH3kiwENWy/2OQXgCr2CuWo2e6hNUGzSLf/cjbsMNqEA==
+  dependencies:
+    tslib "^2.3.0"
+
 "@angular/build@20.0.6":
   version "20.0.6"
   resolved "https://registry.npmjs.org/@angular/build/-/build-20.0.6.tgz"
@@ -411,10 +418,17 @@
     semver "7.7.2"
     yargs "17.7.2"
 
-"@angular/common@^20.0.0", "@angular/common@^20.0.0 || ^21.0.0", "@angular/common@>=20.0.0", "@angular/common@>=5.0.0", "@angular/common@~20.0.0", "@angular/common@17.x || 18.x || 19.x", "@angular/common@20.0.7":
+"@angular/common@^20.0.0", "@angular/common@^20.0.0 || ^21.0.0", "@angular/common@>=20.0.0", "@angular/common@>=5.0.0", "@angular/common@~20.0.0", "@angular/common@18.x || 19.x || 20.x", "@angular/common@20.0.7":
   version "20.0.7"
   resolved "https://registry.npmjs.org/@angular/common/-/common-20.0.7.tgz"
   integrity sha512-1LQrpLqTeB4K9LYrDI91SbN+BaLkTnw4905ZQJrySJzX7s37eB2uJdtY8RKS8VgNithGpknoCtPYRDVX+At75Q==
+  dependencies:
+    tslib "^2.3.0"
+
+"@angular/common@17.x || 18.x || 19.x", "@angular/common@19.2.14":
+  version "19.2.14"
+  resolved "https://registry.npmjs.org/@angular/common/-/common-19.2.14.tgz"
+  integrity sha512-NcNklcuyqaTjOVGf7aru8APX9mjsnZ01gFZrn47BxHozhaR0EMRrotYQTdi8YdVjPkeYFYanVntSLfhyobq/jg==
   dependencies:
     tslib "^2.3.0"
 
@@ -439,10 +453,17 @@
   dependencies:
     tslib "^2.3.0"
 
-"@angular/core@^20.0.0", "@angular/core@^20.0.0 || ^21.0.0", "@angular/core@>=20.0.0", "@angular/core@>=5.0.0", "@angular/core@~20.0.0", "@angular/core@17.x || 18.x || 19.x", "@angular/core@20.0.7":
+"@angular/core@^20.0.0", "@angular/core@^20.0.0 || ^21.0.0", "@angular/core@>=20.0.0", "@angular/core@>=5.0.0", "@angular/core@~20.0.0", "@angular/core@18.x || 19.x || 20.x", "@angular/core@20.0.7":
   version "20.0.7"
   resolved "https://registry.npmjs.org/@angular/core/-/core-20.0.7.tgz"
   integrity sha512-bIG2oD9G/dH5RoGeJZX+hEpyXcgWDAUYo2KxTJ7hrOFzL4gqjtsroqJlrvqjqiHRamcGdfnIaKKInsnszvZ+nw==
+  dependencies:
+    tslib "^2.3.0"
+
+"@angular/core@17.x || 18.x || 19.x", "@angular/core@19.2.14":
+  version "19.2.14"
+  resolved "https://registry.npmjs.org/@angular/core/-/core-19.2.14.tgz"
+  integrity sha512-EVErpW9tGqJ/wNcAN3G/ErH8pHCJ8mM1E6bsJ8UJIpDTZkpqqYjBMtZS9YWH5n3KwUd1tAkAB2w8FK125AjDUQ==
   dependencies:
     tslib "^2.3.0"
 
@@ -475,10 +496,17 @@
   dependencies:
     tslib "^2.3.0"
 
-"@angular/platform-browser@^20.0.0", "@angular/platform-browser@~20.0.0", "@angular/platform-browser@17.x || 18.x || 19.x", "@angular/platform-browser@20.0.7":
+"@angular/platform-browser@^20.0.0", "@angular/platform-browser@~20.0.0", "@angular/platform-browser@18.x || 19.x || 20.x", "@angular/platform-browser@20.0.7":
   version "20.0.7"
   resolved "https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-20.0.7.tgz"
   integrity sha512-oEkNs7Qp0VAiCfpDf15FmISMc+HUq/acvKiI2btKCL0rBkSyBA+nbqdOkwrygi311S8LL0KhaXKr25/Evdh2XQ==
+  dependencies:
+    tslib "^2.3.0"
+
+"@angular/platform-browser@17.x || 18.x || 19.x":
+  version "19.2.14"
+  resolved "https://registry.npmjs.org/@angular/platform-browser/-/platform-browser-19.2.14.tgz"
+  integrity sha512-hzkT5nmA64oVBQl6PRjdL4dIFT1n7lfM9rm5cAoS+6LUUKRgiE2d421Kpn/Hz3jaCJfo+calMIdtSMIfUJBmww==
   dependencies:
     tslib "^2.3.0"
 
@@ -2048,6 +2076,13 @@
   version "21.1.0"
   resolved "https://registry.npmjs.org/@swimlane/ngx-datatable/-/ngx-datatable-21.1.0.tgz"
   integrity sha512-JSlMJh9Kat7HnLTx9gFLVZnjn4nPKUCv+U0VzuvPY3lxL+EwsMf0ch3ugbmBROwTYZFIrClj72fdKQ8VaK3jZw==
+  dependencies:
+    tslib "^2.0.0"
+
+"@swimlane/ngx-datatable@^22.0.0":
+  version "22.0.0"
+  resolved "https://registry.npmjs.org/@swimlane/ngx-datatable/-/ngx-datatable-22.0.0.tgz"
+  integrity sha512-NteAxuMHNnXMeRun0qGZNz5ocoRmoypmhJtfvQRpO6umZPDVlf0+GzlEsTSOfqJNrKiYjtaMJ8EP+1lRYxrigw==
   dependencies:
     tslib "^2.0.0"
 
