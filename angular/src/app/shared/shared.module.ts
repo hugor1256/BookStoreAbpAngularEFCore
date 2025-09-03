@@ -11,15 +11,15 @@ import { NgbDatepickerModule } from '@ng-bootstrap/ng-bootstrap';
     ThemeSharedModule,
     NgbDropdownModule,
     NgxValidateCoreModule,
-    NgbDatepickerModule
+    NgbDatepickerModule,
   ],
   exports: [
     CoreModule,
     ThemeSharedModule,
     NgbDropdownModule,
     NgxValidateCoreModule,
-    NgbDatepickerModule
+    NgbDatepickerModule,
   ],
-  providers: []
+  providers: [],
 })
 export class SharedModule {}

@@ -27,5 +27,8 @@ export const APP_ROUTES: Routes = [
     path: 'books',
     loadComponent: () => import('./book/book.component').then(m => m.BookComponent),
   },
-  
+  {
+    path: 'authors',
+    loadComponent: () => import('./author/author.component').then(m => m.AuthorComponent),
+  },
 ];
