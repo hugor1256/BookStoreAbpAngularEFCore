@@ -3,6 +3,8 @@
   "texts": {
     "AppName": "BookStore",
     "Menu:Home": "Principal",
+    "Menu:BookStore": "Livraria",
+    "Menu:Books": "Livros",
     "Menu:ContactUs": "Entre em contato conosco",
     "Menu:ArticleSample": "Amostra de Artigo",
     "Home": "Casa",
@@ -37,6 +39,20 @@
     "Unspecified": "Sistema",
     "SeeAllUsers": "Ver todos os usuários",
     "TakePhoto": "Tirar fotos",
-    "ChoosePhoto": "Escolher Foto"
+    "ChoosePhoto": "Escolher Foto",
+    "Permission:BookStore": "Livraria",
+    "Permission:Books": "Gerenciar livros",
+    "Permission:Books.Create": "Criando novos livros",
+    "Permission:Books.Edit": "Editando os livros",
+    "Permission:Books.Delete": "Deletando os livros",
+    "Permission:Authors": "Gerenciar Autores",
+    "Permission:Authors.Create": "Criar novos autores",
+    "Permission:Authors.Edit": "Editar os autores",
+    "Permission:Authors.Delete": "Deletar os autores",
+    "Menu:Authors": "Autores",
+    "Authors": "Autores",
+    "AuthorDeletionConfirmationMessage": "Tem certeza que deseja deletar o autor '{0}'?",
+    "BirthDate": "Data de aniversario",
+    "NewAuthor": "Novo autor"
   }
 }
